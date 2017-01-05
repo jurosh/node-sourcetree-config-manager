@@ -1,0 +1,26 @@
+{
+  "name": "sourcetree-config-manager",
+  "version": "1.0.1",
+  "description": "Configuration manager library for sourcetree written in JavaScript.",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurosh/node-sourcetree-config-manager.git"
+  },
+  "author": "Juraj Husar <jurosh@mail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jurosh/node-sourcetree-config-manager/issues"
+  },
+  "homepage": "https://github.com/jurosh/node-sourcetree-config-manager#readme",
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  }
+}
