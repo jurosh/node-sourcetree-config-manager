@@ -1,4 +1,4 @@
 
-const {appendItemToConfig} = require('sourcetree-config-manager');
+const {appendItemToConfig, getConfigPath} = require('sourcetree-config-manager');
 
-appendItemToConfig('path\\to\\git\\project', 'Test Git Project Name');
+appendItemToConfig(getConfigPath('jurosh'), 'path\\to\\git\\project', 'Test Git Project Name');

@@ -9,7 +9,8 @@ Simply add new project into sourcetree confiuguration with nodejs.
 
 Supported operations:
 
-- Append new project at the end of user project listing (`appendItemToConfig(pathToGitProject, projectName)`)
+- Get sourcetree default path - currently only for windows (`getConfigPath(userName)`)
+- Append new project at the end of user project listing (`appendItemToConfig(configPath, pathToGitProject, projectName)`)
 
 See `example-usage/` folder for real project example.
 
