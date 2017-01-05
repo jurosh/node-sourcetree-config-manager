@@ -7,6 +7,7 @@ const builder = new xml2js.Builder();
 
 function getConfigPath (username) {
   // TODO: detect os and choose valid path
+  // TODO: we may detect current user automagically
   return `C:\\Users\\${username}\\AppData\\Local\\Atlassian\\SourceTree\\bookmarks.xml`;
 }
 
