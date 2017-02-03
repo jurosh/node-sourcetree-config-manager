@@ -14,6 +14,8 @@ Supported operations:
 
 See `example-usage/` folder for real project example.
 
+Note: you may get current username with command `process.env['USERPROFILE'].split(path.sep)[2]`
+
 **! Please close SourceTree before running script.**
 
 # Notes
