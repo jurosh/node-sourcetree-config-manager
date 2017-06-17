@@ -26,6 +26,6 @@ Before doing any file operation backup file will be created near to accessing co
 
 - SourceTree 1.9.10
 - Windows 10
-- npm 3.10.9 & node v7.2.0
+- npm 3.10.9, 5.0.3 & node v7.2.0, 7.6.0
 
 Please feel free to submit any compatibility or feature related pull request.
