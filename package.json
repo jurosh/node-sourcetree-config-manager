@@ -1,8 +1,9 @@
 {
   "name": "sourcetree-config-manager",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Configuration manager library for sourcetree written in JavaScript.",
   "main": "src/index.js",
+  "types": "src/types.d.ts",
   "files": [
     "src"
   ],
